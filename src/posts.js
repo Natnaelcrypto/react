@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL:"http://localhost:3800"
+    baseURL:"mongodb+srv://Natnael:<password>@cluster0.idbugid.mongodb.net/?retryWrites=true&w=majority"
 })
